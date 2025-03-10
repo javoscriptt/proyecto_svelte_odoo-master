@@ -15,7 +15,7 @@
   </div>
   <div class="navbar-links">
     <a href="/">Inicio</a>
-    <a href="/about">Acerca de</a>
+    <a href="empleados_screen.svelte">Acerca de</a>
     <a href="/contact">Contacto</a>
   </div>
   <div class="navbar-user">

@@ -52,12 +52,7 @@
         { label: "Documentos", icon: "/icons/documentos.png" },
       ],
     },
-    {
-  title: "ANÁLISIS Y REPORTES",
-  items: [
-    { label: "Gráficos de Ventas", icon: "/icons/graficos.png", route: "graficos" }, // ✅ Nueva opción
-  ],
-},
+  
     {
       title: "FABRICACIÓN",
       items: [

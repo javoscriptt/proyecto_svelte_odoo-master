@@ -5,7 +5,7 @@
   import FacturacionScreen from './facturacion_screen.svelte';
   import InventarioScreen from './inventario_screen.svelte';
   import CompraScreen from './compra_screen.svelte';
-  import { user } from './stores/userStore'; // Asegúrate de que este archivo existe
+  import GraficosScreen from './routes/graficos_screen.svelte';  import { user } from './stores/userStore'; // Asegúrate de que este archivo existe
   import ModuleIcon from './components/ModuleIcon.svelte';
 
   // Variable para manejar si el usuario está autenticado
@@ -20,7 +20,8 @@
     { label: "Ventas", icon: "/icons/ventas.png", view: "ventas" },
     { label: "Facturación", icon: "/icons/facturacion.png", view: "facturacion" },
     { label: "Inventario", icon: "/icons/inventario.png", view: "inventario" },
-    { label: "Compra", icon: "/icons/compra.png", view: "compra" }
+    { label: "Compra", icon: "/icons/compra.png", view: "compra" },
+    { label: "Gráficos de Ventas", icon: "/icons/graficos.png", view: "graficos" } // Añadir la nueva aplicación
   ];
 
   // Mapeo de vista a componente
@@ -29,7 +30,8 @@
     ventas: VentasScreen,
     facturacion: FacturacionScreen,
     inventario: InventarioScreen,
-    compra: CompraScreen
+    compra: CompraScreen,
+    graficos: GraficosScreen // Añadir el componente de gráficos
   };
 
   // Función que se ejecuta al iniciar sesión correctamente
